@@ -1,0 +1,38 @@
+name: rockyboy_tech_for_you
+description: A Flutter web app for RockyBoy Tech For-You YouTube channel.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # URL Launcher for opening links
+  url_launcher: ^6.1.10
+
+  # Font Awesome Icons
+  font_awesome_flutter: ^10.0.0
+
+  # WebView for embedding YouTube videos
+  webview_flutter: ^4.0.1
+
+  # Animated Text for the header
+  animated_text_kit: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sai.png
+    - assets/bg.png
+
+  # fonts:
+  #   - family: Rocky
+  #     fonts:
+  #       - asset: assets/fonts/Rocky-Regular.ttf
