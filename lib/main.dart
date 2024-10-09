@@ -71,7 +71,7 @@ class RockyBoyHomePage extends StatelessWidget {
                   ),
                   SizedBox(height: 20),
                   Text(
-                    'git '
+                    
                     'Stay tuned for exciting content and make sure to subscribe to stay updated!',
                     style: TextStyle(fontSize: 20, color: Colors.white), // Text color adjusted for visibility
                   ),
